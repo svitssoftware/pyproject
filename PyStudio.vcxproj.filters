@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="Line.cpp">
+      <Filter>Graphics\Objects\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectq.cpp">
+      <Filter>Graphics\Objects\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Graphics\Objects\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Graphics\Objects\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Graphics\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Graphics\Objects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Graphics\Objects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartFix.cpp">
+      <Filter>Studio\Python\Code\SmartCode</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartSuggestion.cpp">
+      <Filter>Studio\Python\Code\SmartCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>Studio\Python\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Graphics\Objects\Controls\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageButton.cpp">
+      <Filter>Graphics\Objects\Controls\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Studio\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Graphics\Objects\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectExplorer.cpp">
+      <Filter>Studio\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFileChooser.cpp">
+      <Filter>Studio\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="DropList.cpp">
+      <Filter>Graphics\Objects\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupPanel.cpp">
+      <Filter>Graphics\Objects\Controls\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor.cpp">
+      <Filter>Graphics\Objects\Controls\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="NewProjectChooser.cpp">
+      <Filter>Studio\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Designer.cpp">
+      <Filter>Studio\Designer</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties.cpp">
+      <Filter>Studio\Designer\Windows\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBox.cpp">
+      <Filter>Studio\Designer\Windows\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Graphics\Objects\Controls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="GL.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Graphics\Objects\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectq.h">
+      <Filter>Graphics\Objects\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Graphics\Objects\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Graphics\Objects\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Graphics\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Graphics\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Graphics\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartFix.h">
+      <Filter>Studio\Python\Code\SmartCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartSuggestion.h">
+      <Filter>Studio\Python\Code\SmartCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>Studio\Python\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Graphics\Objects\Controls\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageButton.h">
+      <Filter>Graphics\Objects\Controls\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Studio\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Graphics\Objects\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFileChooser.h">
+      <Filter>Studio\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="DefinedColors.h">
+      <Filter>Studio\Designer</Filter>
+    </ClInclude>
+    <ClInclude Include="DropList.h">
+      <Filter>Graphics\Objects\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupPanel.h">
+      <Filter>Graphics\Objects\Controls\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditor.h">
+      <Filter>Graphics\Objects\Controls\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="NewProjectChooser.h">
+      <Filter>Studio\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Designer.h">
+      <Filter>Studio\Designer</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties.h">
+      <Filter>Studio\Designer\Windows\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBox.h">
+      <Filter>Studio\Designer\Windows\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectExplorer.h">
+      <Filter>Studio\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Graphics\Objects\Controls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{f299296d-f910-4aef-bc22-c745f39f7209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Objects">
+      <UniqueIdentifier>{19b629de-7e83-4a84-87e0-3bf50ed98085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio">
+      <UniqueIdentifier>{0f544f84-6692-45eb-99e2-a255c8406a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Designer">
+      <UniqueIdentifier>{9f302ee0-83a2-44de-bb42-4fe670cb0848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Structures">
+      <UniqueIdentifier>{a8ca2eee-0248-4e03-b779-7556cb382d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Python">
+      <UniqueIdentifier>{d6e85657-8f4d-4e25-a841-012aff48abc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Python\Code">
+      <UniqueIdentifier>{f9e7591d-3e86-4956-82d0-5c58817592dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Python\Code\SmartCode">
+      <UniqueIdentifier>{3ea05e16-b400-4200-bbdb-84646cf87133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Python\Debugger">
+      <UniqueIdentifier>{ac7f25ad-480f-48b7-ad4e-03f114693dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Python\Pip">
+      <UniqueIdentifier>{713fa495-738c-4283-9a66-0976267dc12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Project">
+      <UniqueIdentifier>{96a9ef24-998e-4981-9a20-284d75af77e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Designer\Windows">
+      <UniqueIdentifier>{a824e723-219b-435a-8b40-60877faeede9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Designer\Windows\Toolbox">
+      <UniqueIdentifier>{a4be0b83-f1a0-4f6a-8555-5ce701921e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Studio\Designer\Windows\Properties">
+      <UniqueIdentifier>{23d955e1-d19e-4e5f-bdd6-dc79904df5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Objects\Components">
+      <UniqueIdentifier>{310fc2f9-b3b6-4422-b225-3c2cf11382af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Objects\Controls">
+      <UniqueIdentifier>{6ca868ae-c22d-4a45-b15d-db38e1ccc676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Objects\Controls\Buttons">
+      <UniqueIdentifier>{71bee8c1-19eb-4e99-951b-684882eded91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Objects\Controls\Menus">
+      <UniqueIdentifier>{d39ebca3-2365-4f10-84b3-bd58d783ced9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Objects\Primitives">
+      <UniqueIdentifier>{62c7785b-087b-4086-bde2-119f5389f3bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Studio\SmartCode\label.xml">
+      <Filter>Studio\Python\Code\SmartCode</Filter>
+    </Resource>
+    <Resource Include="Studio\SmartCode\color.xml">
+      <Filter>Studio\Python\Code\SmartCode</Filter>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Designer\allproperties.xml">
+      <Filter>Studio\Designer</Filter>
+    </Xml>
+    <Xml Include="Designer\properties.xml">
+      <Filter>Studio\Designer</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
